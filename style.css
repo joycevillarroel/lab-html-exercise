@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .essential {
+    padding: 70px;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .logoSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+  }
+
+  .npmLogo {
+      width: 80px;
+      padding: 15px;
+  }
+
+  .magnifyinGlass {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 20px;
+      background-color: rgb(0,0,0,.05); 
+      height: 37px;  
+  }
+
+  .magnifyinGlass img {
+    width: 100%;
+  }
+
+  .searchPackages {
+    background-color: rgb(0,0,0,.05);
+    border: 0;
+    padding: 10px 650px 10px 10px; 
+    font-size: 15px;
+    
+
+  }
+  .form-search {
+    display: flex;
+    align-items: center;
+    height: 37px;
+  }
+
+  .Search {
+    background-color: #fb3e44;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    height: 37px;
+  }
+
+  .join {
+    border: 0.5px solid rgb(27, 27, 27);
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  .logIn {
+    font-size: 15px;
+  }
+
+  .buildAmazingThings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5efef;
+    padding: 70px;
+
+  }
+
+  h1 {
+      color: black;
+      font-size: 80px;
+      text-align: center;
+      font-weight: 1000;
+  }
+
+  article {
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      width: 530px;
+    }
+
+  .seePlans {
+    background-color: #FB3B49;
+    padding: 20px 80px;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    box-shadow: 10px 5px 0px rgb(255, 0, 0, 0.4);
+    margin-right: 20px;
+    }
+
+  .joinForFree {
+    background-color: white;
+    color: black;
+    padding: 20px 80px;
+    border: 0;
+    font-size: 25px;
+  }
+
+  .Triangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 60px; */
+  }
+  
+  .triangleHexagon {
+    width: 160px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .highlight {
+    background-color:rgba(255,204,53,.4);
+    padding: 0px 30px;
+    transform: skew(10deg);
+    margin-bottom: 20px;
+  }
+
+  
+  h2 {
+  transform: skew(-10deg);    
+  }
+  .npm{
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  
+  .elements4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .zeroConfiguration {
+    width: 25px;
+  }
+
+  .teamManagement {
+    width: 25px;
+  }
+
+  .familiarFeatures {
+    width: 25px;
+  }
+
+  .npmAudit {
+    width: 25px;
+  }
+
+  h3 {
+    font-size: 15px;
+    color: red;
+    padding: 20px 0px;
+  }
+  
+  .element {
+    padding: 40px;
+    font-size: 12px;
+  }
+
+  .org1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .org {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 15px 100px;
+    font-size: 25px;
+    border: 0;
+    box-shadow: 10px 5px 0px rgb(0, 0, 0, 0.4);
+  }
